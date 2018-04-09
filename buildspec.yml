@@ -10,7 +10,7 @@ phases:
       - pip install Pygments
       # - wget https://github.com/gohugoio/hugo/releases/download/v0.38/hugo_0.38_Linux-64bit.deb
       # - dpkg -i hugo_0.38_Linux-64bit.deb
-      - apt-get install hugo
+      - yum install hugo
 
   pre_build:
     commands:
