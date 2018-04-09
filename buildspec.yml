@@ -10,7 +10,7 @@ phases:
       - curl -Ls https://github.com/gohugoio/hugo/releases/download/v0.38/hugo_0.38_Linux-64bit.tar.gz -o /tmp/hugo.tar.gz
       - tar xf /tmp/hugo.tar.gz -C /tmp
       - ls /tmp/
-      - mv /tmp/hugo/ /usr/bin/hugo
+      - mv /tmp/hugo /usr/bin/hugo
       - rm -rf /tmp/hugo*
 
   pre_build:

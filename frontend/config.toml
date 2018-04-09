@@ -217,22 +217,27 @@ defaultContentLanguageInSubdir = false
   [[params.social]]
     icon = "envelope"
     icon_pack = "fa"
-    link = "mailto:test@example.org"
+    link = "mailto:daniel.delvin.diaz+fromweb@gmail.com"
 
-  [[params.social]]
-    icon = "twitter"
-    icon_pack = "fa"
-    link = "//twitter.com/GeorgeCushen"
+  #[[params.social]]
+  #  icon = "twitter"
+  #  icon_pack = "fa"
+  #  link = "//twitter.com/GeorgeCushen"
 
-  [[params.social]]
-    icon = "google-scholar"
-    icon_pack = "ai"
-    link = "https://scholar.google.co.uk/citations?user=sIwtMXoAAAAJ"
+  #[[params.social]]
+  #  icon = "google-scholar"
+  #  icon_pack = "ai"
+  #  link = "https://scholar.google.co.uk/citations?user=sIwtMXoAAAAJ"
 
   [[params.social]]
     icon = "github"
     icon_pack = "fa"
-    link = "//github.com/gcushen"
+    link = "//github.com/dddiaz"
+
+  [[params.social]]
+    icon = "linkedin"
+    icon_pack = "fa"
+    link = "//www.linkedin.com/in/daniel-diaz-3a784155/"
 
 
 # Navigation Links
@@ -287,4 +292,4 @@ defaultContentLanguageInSubdir = false
   languageCode = "en-us"
 
 # Custom CSS
-custom_css = ['hero-override.css']
+# custom_css = ['hero-override.css']
