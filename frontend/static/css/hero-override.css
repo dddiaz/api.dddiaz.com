@@ -1,10 +1,10 @@
 .hero-overlay {
     /* Height and width fallback for older browsers. */
-    height: 25%;
+    height: 50%;
     width: 100%;
 
     /* Set the height to match that of the viewport. */
-    height: 25vh;
+    height: 50vh;
 
     /* Set the width to match that of the viewport. */
     width: 100vw;
