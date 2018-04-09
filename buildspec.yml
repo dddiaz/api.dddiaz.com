@@ -8,9 +8,10 @@ phases:
       - pip install --upgrade awscli
       # Download and install HUGO
       - pip install Pygments
-      - wget https://github.com/gohugoio/hugo/releases/download/v0.38/hugo_0.38_Linux-64bit.deb
-      # - dpkg -i hugo_0.38_Linux-64bit.deb
-      - yum install hugo_0.38_Linux-64bit.deb
+      - wget https://github.com/gohugoio/hugo/releases/download/v0.38/hugo_0.38_Linux-64bit.tar.gz -o /tmp/hugo.tar.gz
+      - tar xf /tmp/hugo.tar.gz -C /tmp
+      - mv /tmp/hugo_${HUGO_VERSION}_linux_amd64/hugo_${HUGO_VERSION}_linux_amd64 /usr/bin/hugo
+      - rm -rf /tmp/hugo*
 
   pre_build:
     commands:
