@@ -9,7 +9,7 @@ phases:
       # Download and install HUGO
       - curl -Ls https://github.com/gohugoio/hugo/releases/download/v0.38/hugo_0.38_Linux-64bit.tar.gz -o /tmp/hugo.tar.gz
       - tar xf /tmp/hugo.tar.gz -C /tmp
-      - mv /tmp/hugo_0.38_linux_amd64/hugo_0.38_linux_amd64 /usr/bin/hugo
+      - mv /tmp/hugo_0.38_Linux-64bit/hugo /usr/bin/hugo
       - rm -rf /tmp/hugo*
 
   pre_build:
