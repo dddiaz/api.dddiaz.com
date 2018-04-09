@@ -6,6 +6,9 @@ phases:
 
       # Upgrade AWS CLI to the latest version
       - pip install --upgrade awscli
+      # Download and install HUGO
+      - wget https://github.com/gohugoio/hugo/releases/download/v0.38/hugo_0.38_Linux-64bit.deb
+      - dpkg -i hugo_0.21_Linux-64bit.deb
 
   pre_build:
     commands:
