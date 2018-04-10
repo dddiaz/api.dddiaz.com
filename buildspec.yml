@@ -32,6 +32,7 @@ phases:
 
   post_build:
     commands:
+      # Make sure your codestarworker for dddiaz.com (codebuild) has read,write,list permissions for the website s3 bucket
       - aws s3 sync frontend/public s3://dddiaz.com
 
 artifacts:
