@@ -6,6 +6,7 @@ phases:
 
       # Upgrade AWS CLI to the latest version
       - pip install --upgrade awscli
+      
       # Download and install HUGO
       - curl -Ls https://github.com/gohugoio/hugo/releases/download/v0.38/hugo_0.38_Linux-64bit.tar.gz -o /tmp/hugo.tar.gz
       - tar xf /tmp/hugo.tar.gz -C /tmp

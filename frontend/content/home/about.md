@@ -28,7 +28,7 @@ weight = 5
 
 [[education.courses]]
   course = "B.A. in Political Science"
-  institution = "Universite of California, Irvine"
+  institution = "University of California, Irvine"
   year = 2014
  
 +++
