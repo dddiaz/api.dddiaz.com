@@ -6,11 +6,11 @@ $(document).ready(function(){
       $('.donut').addClass('almost-empty');
     }, 500);
 
-    // $.getJSON("/last-blood-glucose", function(data) {
+    // $.getJSON("https://diaz-bg.herokuapp.com/api/v1/entries.json", function(data) {
     //     // This function executes on success
-    //     var bg = data["sgv"];
-    //     var trend = data['trend'];
-    //     var direction = data['direction'];
+    //     var bg = data[0]["sgv"];
+    //     var trend = data[0]['trend'];
+    //     var direction = data[0]['direction'];
     //     var returnBG = function() {
     //         return bg;
     //     }

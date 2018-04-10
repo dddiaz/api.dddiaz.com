@@ -1,12 +1,12 @@
 +++
-title = "Academic: the website designer for Hugo"
+title = "About This Website"
 
 date = 2018-04-09
-lastmod = 2018-01-13
+lastmod = 2018-04-09
 draft = false
 
-tags = ["about", "site", "how-it-works"]
-summary = "Create a beautifully simple website or blog in under 10 minutes."
+tags = ["about", "site", "how-it-works", "CI", "CD", "AWS", "Microservice", "Python"]
+summary = "A blog post describing how this website was built and deployed (CI/CD AWS Microservice)"
 
 [header]
 image = "headers/getting-started.png"
