@@ -1,11 +1,11 @@
 +++
-title = "About This Website"
+title = "Docker AWS Pipeline"
 
 date = 2018-04-09
 lastmod = 2018-04-09
 draft = false
 
-tags = ["about", "site", "how-it-works", "CI", "CD", "AWS", "Microservice", "Python"]
+tags = ["how-it-works", "CI", "CD", "AWS", "Microservice", "Python", "Docker"]
 summary = "A blog post describing how this website was built and deployed (CI/CD AWS Microservice)"
 
 [header]

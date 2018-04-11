@@ -37,4 +37,4 @@ weight = 5
 
 I am a Computer Science(B.S.) and Political Science(B.A.) graduate from the University of California, Irvine. 
 
-I love to code and specialize in web applications. When I am not coding you might find me sailing, taking photos, scuba diving, or volunteering with JDRF.
+I love to code and specialize in python applications. When I am not coding you might find me sailing, taking photos, scuba diving, or volunteering with JDRF.

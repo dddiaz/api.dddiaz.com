@@ -6,33 +6,24 @@ $(document).ready(function(){
       $('.donut').addClass('almost-empty');
     }, 500);
 
-    // $.getJSON("https://diaz-bg.herokuapp.com/api/v1/entries.json", function(data) {
-    //     // This function executes on success
-    //     var bg = data[0]["sgv"];
-    //     var trend = data[0]['trend'];
-    //     var direction = data[0]['direction'];
-    //     var returnBG = function() {
-    //         return bg;
-    //     }
-    //     //Once Data is loaded, attatch an inview event to the donut
-    //     _setBGInfoText(bg,trend,direction);
-    //     $('.donut').bind('inview', function(event, visible) {
-    //         if (visible) {
-    //             _adjustBGInfoDonut(returnBG());
-    //         } else {
-    //             _adjustBGInfoDonutToMin();
-    //         }
-    //     });
-    // });
-
-    // HARD CODING FOR NOW
-    // TODO CHANGE BACK TO API
-    // var bg = 123;
-    // var trend = data['trend'];
-    // var direction = data['direction'];
-
-    // TEMPPPPPPP
-    //_adjustBGInfoDonutToMin();
+    $.getJSON("https://diaz-bg.herokuapp.com/api/v1/entries.json", function(data) {
+        // This function executes on success
+        var bg = data[0]["sgv"]; // Number
+        var trend = data[0]['trend']; // Number
+        var direction = data[0]['direction']; //String, like flat
+        var returnBG = function() {
+            return bg;
+        }
+        //Once Data is loaded, attatch an inview event to the donut
+        _setBGInfoText(bg,trend,direction);
+        $('.donut').bind('inview', function(event, visible) {
+            if (visible) {
+                _adjustBGInfoDonut(returnBG());
+            } else {
+                _adjustBGInfoDonutToMin();
+            }
+        });
+    });
 
     //Function to adjust donut
     var _adjustBGInfoDonut = function(bg){
@@ -53,7 +44,7 @@ $(document).ready(function(){
     }
 
     var _setBGInfoText = function(bg,trend,direction){
-        $('#BGText').text(_generateBGText(bg,trend,direction));
+        $('#glucose-text').text(_generateBGText(bg,trend,direction));
     }
 
     var _generateBGTrendText = function(trend,direction){

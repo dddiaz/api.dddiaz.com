@@ -154,7 +154,7 @@ defaultContentLanguageInSubdir = false
   # Link custom CSS and JS assets
   #   (relative to /static/css and /static/js respectively)
   custom_css = ["donut.css"]
-  custom_js  = ["bg.js"]
+  custom_js  = ["jquery.inview.js", "bg.js"]
 
   # Publication types.
   #   Used to categorize publications.

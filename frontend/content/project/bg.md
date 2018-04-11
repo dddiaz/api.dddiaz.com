@@ -2,9 +2,6 @@
 # Date this page was created.
 date = "2016-04-27"
 
-# Dont show this page
-draft = true
-
 # Project title.
 title = "Deep Learning"
 

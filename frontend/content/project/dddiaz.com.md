@@ -1,22 +1,22 @@
 +++
 # Date this page was created.
-date = "2016-04-27"
+date = "2018-04-10"
 
 # Project title.
-title = "External Project"
+title = "dddiaz.com"
 
 # Project summary to display on homepage.
-summary = "An example of linking directly to an external project website using `external_link`."
+summary = "The source code for this website."
 
 # Optional image to display on homepage (relative to `static/img/` folder).
-image_preview = "boards.jpg"
+image_preview = "DiazGear.png"
 
 # Tags: can be used for filtering projects.
 # Example: `tags = ["machine-learning", "deep-learning"]`
-tags = ["demo"]
+tags = ["web"]
 
 # Optional external URL for project (replaces project detail page).
-external_link = "http://example.org"
+external_link = "https://github.com/dddiaz/dddiaz.com"
 
 # Does the project detail page use math formatting?
 math = false
