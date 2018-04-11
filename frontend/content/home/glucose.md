@@ -16,6 +16,6 @@ weight = 60
 +++
 
 A person without Type 1 Diabetes has an average blood glucose reading of 120. The graphic shows whether I am above, below, or at average.
-Using MongoDB and a Python Flask API, I am able to retrieve real time data regarding my current glucose reading. I hope to develop analytics and insights into glucose readings to help Type I Diabetics better manage their Diabetes.
+Leveraging an open source project called Nightscout I am able to scrape the data from the continous glucose monitor that I wear on my body. I hope to develop analytics and insights into glucose readings to help Type I Diabetics better manage their Diabetes.
 
 
