@@ -9,42 +9,56 @@ tags = ["about", "site", "how-it-works", "CI", "CD", "AWS", "Microservice", "Pyt
 summary = "A blog post describing how this website was built and deployed (CI/CD AWS Microservice)"
 
 [header]
-image = "headers/getting-started.png"
-caption = "Image credit: [**Academic**](https://github.com/gcushen/hugo-academic/)"
+image = "headers/aws.png"
 
-[[gallery_item]]
-album = "1"
-image = "https://raw.githubusercontent.com/gcushen/hugo-academic/master/images/theme-default.png"
-caption = "Default"
-
-[[gallery_item]]
-album = "1"
-image = "https://raw.githubusercontent.com/gcushen/hugo-academic/master/images/theme-ocean.png"
-caption = "Ocean"
-
-[[gallery_item]]
-album = "1"
-image = "https://raw.githubusercontent.com/gcushen/hugo-academic/master/images/theme-dark.png"
-caption = "Dark"
-
-[[gallery_item]]
-album = "1"
-image = "https://raw.githubusercontent.com/gcushen/hugo-academic/master/images/theme-forest.png"
-caption = "Default"
-
-[[gallery_item]]
-album = "1"
-image = "https://raw.githubusercontent.com/gcushen/hugo-academic/master/images/theme-coffee-playfair.png"
-caption = "Coffee theme with Playfair font"
-
-[[gallery_item]]
-album = "1"
-image = "https://raw.githubusercontent.com/gcushen/hugo-academic/master/images/theme-1950s.png"
-caption = "1950s"
 +++
 
-**Academic** is a framework to help you create a beautiful website quickly. Perfect for personal sites, blogs, or business/project sites. [Check out the latest demo](https://themes.gohugo.io/theme/academic/) of what you'll get in less than 10 minutes. Then head on over to the [Quick Start guide](https://sourcethemes.com/academic/docs/) or take a look at the [Release Notes](https://sourcethemes.com/academic/updates/).
+This site uses aws code pipeline to continuously deploy changes commited to the github repo. 
 
-[![Screenshot](https://raw.githubusercontent.com/gcushen/hugo-academic/master/academic.png)](https://github.com/gcushen/hugo-academic/)
+Check out my buildspec.yml which handles deploying my static front end and microservice.
 
+```yml
+version: 0.2
+
+phases:
+  install:
+    commands:
+
+      # Upgrade AWS CLI to the latest version
+      - pip install --upgrade awscli
+      
+      # Download and install HUGO
+      - curl -Ls https://github.com/gohugoio/hugo/releases/download/v0.38/hugo_0.38_Linux-64bit.tar.gz -o /tmp/hugo.tar.gz
+      - tar xf /tmp/hugo.tar.gz -C /tmp
+      - ls /tmp/
+      - mv /tmp/hugo /usr/bin/hugo
+      - rm -rf /tmp/hugo*
+
+  pre_build:
+    commands:
+
+      # Discover and run unit tests in the 'tests' directory. For more information, see <https://docs.python.org/3/library/unittest.html#test-discovery>
+      - python -m unittest discover tests
+  
+  build:
+    commands:
+
+      # Build Hugo Frontend
+      - cd frontend
+      - hugo
+      - cd ../
+
+      # Use AWS SAM to package the application by using AWS CloudFormation
+      - aws cloudformation package --template template.yml --s3-bucket $S3_BUCKET --output-template template-export.yml
+
+  post_build:
+    commands:
+      # Make sure your codestarworker for dddiaz.com (codebuild) has read,write,list permissions for the website s3 bucket
+      - aws s3 sync frontend/public s3://dddiaz.com
+
+artifacts:
+  type: zip
+  files:
+    - template-export.yml
+```
 

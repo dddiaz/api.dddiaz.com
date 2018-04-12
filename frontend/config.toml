@@ -3,7 +3,7 @@
 
 # The URL of your website.
 # End your URL with a `/` trailing slash, e.g. `https://example.com/`.
-baseurl = "/"
+baseurl = "https://dddiaz.com/"
 
 # Title of your site
 title = "Daniel Diaz's Website"
@@ -59,9 +59,9 @@ defaultContentLanguageInSubdir = false
 
   gravatar = false  # Get your avatar from Gravatar.com? (true/false)
   avatar = "portrait.jpg"  # Specify an avatar image (in `static/img/` folder) or delete value to disable avatar.
-  email = ""
+  email = "daniel.delvin.diaz+web.com@gmail.com"
   address = "Orange County, California"
-  # office_hours = "Monday 10:00 to 13:00 or email for appointment"
+  office_hours = "Prefer contact by email. Usually respond within 1 bussines day."
   # phone = "888 888 88 88"
   # skype = "echo123"
   # telegram = ""
