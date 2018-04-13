@@ -12,6 +12,7 @@
     - API Gateway 
     - Lambda
 - GO Hugo (GOLANG) for front end
+- HTTPS ! and Cloudfront CDN
 
 # How to run front end locally:
 ```bash
