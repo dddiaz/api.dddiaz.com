@@ -3,8 +3,9 @@
 
 # The URL of your website.
 # End your URL with a `/` trailing slash, e.g. `https://example.com/`.
-baseurl = "https://dddiaz.com"
-canonifyURLs = true
+baseurl = "/"
+#baseurl = "https://dddiaz.com"
+#canonifyURLs = true
 
 
 # Title of your site
