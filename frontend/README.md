@@ -7,3 +7,5 @@
 https://discourse.gohugo.io/t/solved-inject-an-svg-file-into-my-html/7446/6
 
 # Note i created a custom glucose widget to support the inline theme
+
+# Note that in cloudfront you restricted china, india cloudfront distributions
