@@ -9,7 +9,7 @@ draft = false
 title = "Python Docker Website with CI/CD"
 
 # Project summary to display on homepage.
-summary = "Lorem ipsum dolor sit amet, consectetur adipiscing elit."
+summary = "My old website."
 
 # Optional image to display on homepage (relative to `static/img/` folder).
 image_preview = "docker.png"

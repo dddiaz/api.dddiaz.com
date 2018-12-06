@@ -2,6 +2,8 @@
 
 - type hugo new post/post-name.md to create a new blog post
 
+- hugo server -w to run
+
 - Dont forget you can set a post for a future pub date
 
 https://discourse.gohugo.io/t/solved-inject-an-svg-file-into-my-html/7446/6

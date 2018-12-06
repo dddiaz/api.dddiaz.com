@@ -11,7 +11,7 @@
     - Cloud Formation
     - API Gateway 
     - Lambda
-- GO Hugo (GOLANG) for front end
+- GO Hugo (GOLANG static site generator) for front end
 - HTTPS ! and Cloudfront CDN
 
 # How to run front end locally:
@@ -25,3 +25,11 @@ Easy -> git commit and aws code pipeline handles the rest :)
 
 # What happend to the old site built with docker?
 It was overkill (although it was an awesome learning expierence), and expensive to run, this is virtually free considering it uses lambda endpoints which only run when invoked, and a static front end on AWS s3.
+
+# Dev Notes:
+- Region : N. Virginia
+- Make sure hugo is installed
+    - brew install hugo
+    - navigate to frontend folder and read readme for how to create content
+    - if pycharm terminal doesnt recognize commands, make sure to open with charm .
+    

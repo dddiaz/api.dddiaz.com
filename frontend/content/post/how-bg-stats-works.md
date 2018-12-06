@@ -1,8 +1,9 @@
 +++
 title = "How Blood Glucose Stats Works"
 
-date = 2018-04-09
-lastmod = 2018-04-09
+#date = 2018-04-09
+date = 2018-12-01
+lastmod = 2018-12-01
 draft = false
 
 tags = ["how-it-works", "Diabetes", "Python"]

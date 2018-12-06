@@ -39,6 +39,10 @@ filter_default = 0
 [[filter]]
   name = "Docker"
   tag = ".docker"
+  
+[[filter]]
+  name = "Bioinformatics"
+  tag = ".bioinformatics"
 
 +++
 
