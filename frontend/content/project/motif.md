@@ -30,13 +30,13 @@ RNA level, including ribosome binding, mRNA processing (splicing, editing,
 polyadenylation) and transcription termination." - Nature
 
 # What does that mean in lay-mans terms:
-It means that amount several seqences of dna, we are looking for a certain pattern.
-The tough part is that we dont know what the pattern is initially, 
+It means that among several sequences of dna, we are looking for a certain pattern.
+The tough part is that we don't know what the pattern is initially, 
 and that the pattern may not exactly match its counterparts in other DNA strings.
 
 # So how does a Las Vegas Algorithm help?
-If you don't know, a las vegas algorithm is a randomized algorithm that always gives a correct result.
-In our case we will randomly choose motifs (or substrings of len k in the dna) and compare them to other randomly computed motifs from the dna.
+If you don't know, a Las Vegas algorithm is a randomized algorithm that always gives a correct result.
+In our case we will randomly choose motifs (or substrings of length k in the dna) and compare them to other randomly computed motifs from the dna.
 Then we will continuously compute a Profile Matrix (a matrix defining the probability of each nucleotide occuring in the motif), generate a new collection of motifs hoping to find a better and better score.
 
 The following algorithm would be run thousands of times, in order to find a good result. The more times it is run, the more likely it is to coalesce around the correct motif.
