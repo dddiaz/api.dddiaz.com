@@ -32,4 +32,4 @@ It was overkill (although it was an awesome learning expierence), and expensive 
     - brew install hugo
     - navigate to frontend folder and read readme for how to create content
     - if pycharm terminal doesnt recognize commands, make sure to open with charm .
-    
+- note you may need to invalidate the cloudfron cache, thats not automated in the buildspec yet
