@@ -19,6 +19,11 @@ weight = 5
     "Continuous Deployment",
     "Automation"
   ]
+  
+[certifications]
+   certifications = [
+    "Test 1"
+   ]
 
 # List your qualifications (such as academic degrees).
 [[education.courses]]
@@ -37,4 +42,4 @@ weight = 5
 
 I am a Computer Science(B.S.) and Political Science(B.A.) graduate from the University of California, Irvine. 
 
-I love to code and specialize in python applications. When I am not coding you might find me sailing, traveling, cycling, or volunteering with JDRF.
+I love to code - I specialize in python applications and DevSecOps. When I am not coding you might find me sailing, traveling, cycling, or volunteering with JDRF.
