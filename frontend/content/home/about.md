@@ -20,10 +20,6 @@ weight = 5
     "Automation"
   ]
   
-[certifications]
-   certifications = [
-    "Test 1"
-   ]
 
 # List your qualifications (such as academic degrees).
 [[education.courses]]
