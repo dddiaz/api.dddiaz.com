@@ -17,6 +17,10 @@ weight = 62
 
 *I hold the following certifications:*
 
-Finding Hidden Messages in DNA (Bioinformatics I) (with Honors)
+AWS Certified Solutions Architect - Associate  
+Certification Date Dec 2018 – Present  
+[License 0JQ2Z5ZC21BQ1VW1](https://www.certmetrics.com/amazon/public/badge.aspx?i=1&t=c&d=2018-12-31&ci=AWS00682148)
+
+Finding Hidden Messages in DNA (Bioinformatics I) (with Honors)  
 Certification Date Dec 2018 – Present  
 [License QN5QZ9YMPCE7](https://www.coursera.org/account/accomplishments/certificate/QN5QZ9YMPCE7)
