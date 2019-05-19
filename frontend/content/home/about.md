@@ -17,7 +17,8 @@ weight = 5
     "Microsevices",
     "Continuous Integration",
     "Continuous Deployment",
-    "Automation"
+    "Automation",
+    "High Performance Computing"
   ]
   
 

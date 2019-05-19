@@ -1,5 +1,7 @@
 # Static Front End Built With Go Hugo
 
+- CD to frontend
+
 - type hugo new post/post-name.md to create a new blog post
 
 - hugo server -w to run
