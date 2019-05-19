@@ -36,8 +36,9 @@ phases:
       # Make sure your codestarworker for dddiaz.com (codebuild) has read,write,list permissions for the website s3 bucket
       - aws s3 sync frontend/public s3://dddiaz.com --delete
 
-      # TODO: Invalidate cloudfront cache
-      # aws cloudfront create-invalidation --distribution-id MYDISTRIBUTION --paths '/*'
+      # Invalidate cache
+      - aws cloudfront create-invalidation --distribution-id E15F5SGXIT0KSW --paths "/*"
+
 
 artifacts:
   type: zip
