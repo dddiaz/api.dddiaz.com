@@ -17,9 +17,16 @@ weight = 62
 
 *I hold the following certifications:*
 
+AWS Certified Solutions Architect - Professional  
+Certification Date July 2019 – Present  
+[License L31CL30CB1441WC8](https://www.certmetrics.com/amazon/public/badge.aspx?i=4&t=c&d=2019-07-02&ci=AWS00682148)
+
 AWS Certified Solutions Architect - Associate  
 Certification Date Dec 2018 – Present  
 [License 0JQ2Z5ZC21BQ1VW1](https://www.certmetrics.com/amazon/public/badge.aspx?i=1&t=c&d=2018-12-31&ci=AWS00682148)
+  
+*AWS Certification Roadmap Reference*  
+![AWS Certification Roadmap Reference](img/roadmap.png)
 
 Finding Hidden Messages in DNA (Bioinformatics I) (with Honors)  
 Certification Date Dec 2018 – Present  
