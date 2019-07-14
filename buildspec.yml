@@ -37,7 +37,7 @@ phases:
       - aws s3 sync frontend/public s3://dddiaz.com --delete
 
       # Invalidate cache (ALL)
-      - aws cloudfront create-invalidation --distribution-id E15F5SGXIT0KSW --paths "/*"
+      - aws cloudfront create-invalidation --distribution-id E15F5SGXIT0KSW --paths '/*'
 
 
 artifacts:
