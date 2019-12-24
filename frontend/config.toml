@@ -13,7 +13,7 @@ title = "Daniel Diaz's Website"
 
 # Your copyright notice - appears in site footer.
 # To display a copyright symbol, type `&copy;`.
-copyright = "&copy; Daniel Diaz 2018"
+copyright = "&copy; Daniel Diaz 2020"
 
 theme = "academic"
 enableEmoji = true
@@ -54,11 +54,11 @@ defaultContentLanguageInSubdir = false
 
   # Your details.
   name = "Daniel Diaz"
-  role = "Software Engineer"
+  role = "Sr. Devops Engineer"
 
   # Organizations/Affiliations.
   #   Separate multiple entries with a comma, using the form: `[ {name="Org1", url=""}, {name="Org2", url=""} ]`.
-  organizations = [ { name = "Capital Group", url = "https://www.capitalgroup.com/"} ]
+  organizations = [ { name = "Illumina", url = "https://www.illumina.com/"} ]
 
   gravatar = false  # Get your avatar from Gravatar.com? (true/false)
   avatar = "portrait.jpg"  # Specify an avatar image (in `static/img/` folder) or delete value to disable avatar.
@@ -97,9 +97,9 @@ defaultContentLanguageInSubdir = false
   #   3: OpenStreetMap (Mapbox)
   map = 2
   map_api_key = ""
-  latitude = "33.673021"
-  longitude = "-117.765631"
-  zoom = 15
+  latitude = "32.8952067"
+  longitude = "-117.244585"
+  zoom = 9
 
   # Date and time format (refer to Go's date format: http://fuckinggodateformat.com )
   #   Examples: "Mon, Jan 2, 2006" or "2006-01-02"
@@ -148,8 +148,8 @@ defaultContentLanguageInSubdir = false
   #   For more info on the highlighting options, see:
   #   https://sourcethemes.com/academic/post/writing-markdown-latex/#highlighting-options
   highlight = true
-  highlight_languages = []
-  # highlight_style = "github"
+  highlight_languages = ["python", "yaml", "yml"]
+  highlight_style = "Darkula"
 
   # Enable native social sharing buttons?
   sharing = true
@@ -240,7 +240,7 @@ defaultContentLanguageInSubdir = false
   [[params.social]]
     icon = "linkedin"
     icon_pack = "fa"
-    link = "//www.linkedin.com/in/daniel-diaz-3a784155/"
+    link = "//www.linkedin.com/in/dddiaz/"
 
 
 # Navigation Links
@@ -277,9 +277,14 @@ defaultContentLanguageInSubdir = false
   weight = 5
 
 [[menu.main]]
+  name = "Certifications"
+  url = "#certifications"
+  weight = 6
+
+[[menu.main]]
   name = "Contact"
   url = "#contact"
-  weight = 6
+  weight = 7
 
 # Taxonomies.
 [taxonomies]
