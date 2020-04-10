@@ -18,7 +18,7 @@
 [www.dddiaz.com](https://www.dddiaz.com)  
 [dddiaz.com](https://dddiaz.com)  
 [blog.dddiaz.com](https://blog.dddiaz.com)  
-[api.dddiaz.com](https://api.dddiaz.com)  
+[api.dddiaz.com](https://api.dddiaz.com) *Note: API must be accessed with https*  
 
 # How to run front end locally:
 ```bash
