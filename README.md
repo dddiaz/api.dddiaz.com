@@ -6,3 +6,4 @@
 - custom api name not working
 - different s3 bucket for deployment
 - pair down deployment permissions
+- add badge
