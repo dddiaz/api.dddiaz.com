@@ -1,3 +1,5 @@
+![CI/CD](https://github.com/dddiaz/api.dddiaz.com/workflows/CI/CD/badge.svg)
+
 # Daniel Diaz's Personal Website API
 
 ## TODO:
