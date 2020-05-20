@@ -2,6 +2,10 @@
 
 # Daniel Diaz's Personal Website API
 
+[API](https://api.dddiaz.com/birthday)
+
+Make sure you are using https not http when talking to api.dddiaz.com
+
 ## TODO:
 - create seperate actions for ci and cd
 - run tests during ci action
