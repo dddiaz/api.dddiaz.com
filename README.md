@@ -13,3 +13,4 @@ Make sure you are using https not http when talking to api.dddiaz.com
 - different s3 bucket for deployment
 - pair down deployment permissions
 - add badge
+- need to figure out way to dynamically update api gateway domain mapping on each deployment
