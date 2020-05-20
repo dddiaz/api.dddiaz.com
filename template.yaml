@@ -49,15 +49,9 @@ Outputs:
   HelloWorldFunction:
     Description: "Hello World Lambda Function ARN"
     Value: !GetAtt HelloWorldFunction.Arn
-  HelloWorldFunctionIamRole:
-    Description: "Implicit IAM Role created for Hello World function"
-    Value: !GetAtt HelloWorldFunctionRole.Arn
   BirthdayApi:
     Description: "API Gateway endpoint URL for Prod stage for Birthday function"
     Value: !Sub "https://${ServerlessRestApi}.execute-api.${AWS::Region}.amazonaws.com/Prod/birthday/"
   BirthdayFunction:
     Description: "Birthday Lambda Function ARN"
     Value: !GetAtt BirthdayFunction.Arn
-  BirthdayFunctionIamRole:
-    Description: "Implicit IAM Role created for Birthday function"
-    Value: !GetAtt BirthdayFunctionRole.Arn
