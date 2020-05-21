@@ -3,6 +3,7 @@
 # Daniel Diaz's Personal Website API
 
 [https://api.dddiaz.com/birthday](https://api.dddiaz.com/birthday)
+[https://api.dddiaz.com/hello](https://api.dddiaz.com/birthday)
 
 # What is this?
 This is a fun little home for lambda apis hosted through my website. Above you will see a link to a sample api that
