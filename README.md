@@ -4,15 +4,19 @@
 
 [https://api.dddiaz.com/birthday](https://api.dddiaz.com/birthday)
 
+# What is this?
+This is a fun little home for lambda apis hosted through my website. Above you will see a link to a sample api that
+informs the user of some critical information regarding if it is my birthday or not ;)
+
+# Dev Note:
 Make sure you are using https not http when talking to api.dddiaz.com
-Also for the life of me, I cant figure out why the above url does not work on my mac, but does work on other devices. My hunch is that its DNS, but still need to investigate.
+Also for some reason, my macs default dns was not allowing this request to go thorugh, if you have issues with that, just use googles 8.8.8.8 DNS.
 
 ## TODO:
 - create seperate actions for ci and cd
 - run tests during ci action
-- custom api name not working
 - different s3 bucket for deployment
 - pair down deployment permissions
-- add badge
 - need to figure out way to dynamically update api gateway domain mapping on each deployment
 - add smoke test
+- add github action for checkov for iaas scanning
