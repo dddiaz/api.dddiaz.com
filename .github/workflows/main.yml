@@ -31,7 +31,7 @@ jobs:
 
     # Runs a single command using the runners shell
     - name: AWS CF Package
-      run: aws cloudformation package --template-file template.yaml --s3-bucket api-dddiaz-com-birthday-lambda --output-template-file packaged-template.json
+      run: aws cloudformation package --template-file template.yaml --s3-bucket api-dddiaz-com-lambda --output-template-file packaged-template.json
 
     # Runs a set of commands using the runners shell
     - name: AWS CF Deploy
