@@ -37,4 +37,7 @@ jobs:
     - name: AWS CF Deploy
       run: |
         aws cloudformation deploy --template-file packaged-template.json --stack-name api-dddiaz-com-stack
+        
+    - name: Curl endpoint to ensure it is up.
+      run: curl -f https://api.dddiaz.com/birthday
 
