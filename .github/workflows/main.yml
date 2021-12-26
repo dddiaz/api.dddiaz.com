@@ -36,7 +36,7 @@ jobs:
     # Runs a set of commands using the runners shell
     - name: AWS CF Deploy
       run: |
-        aws cloudformation deploy --template-file packaged-template.json --stack-name api-dddiaz-com-stack
+        aws cloudformation deploy --template-file packaged-template.json --stack-name api-dddiaz-com-stack --capabilities CAPABILITY_IAM
         
     - name: Curl endpoint to ensure it is up.
       run: curl -f https://api.dddiaz.com/birthday
