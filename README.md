@@ -17,7 +17,9 @@ Also for some reason, my macs default dns was not allowing this request to go th
 - create seperate actions for ci and cd
 - run tests during ci action
 - different s3 bucket for deployment
-- pair down deployment permissions (in progress)
 - need to figure out way to dynamically update api gateway domain mapping on each deployment
 - add smoke test
 - add github action for checkov for iaas scanning
+
+## Done:
+- Paired down deployment permissions
